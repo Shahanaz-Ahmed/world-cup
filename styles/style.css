@@ -291,9 +291,12 @@ footer hr{
         align-items: center;
         flex-direction: column;
     }
-    .top-header{
+    /* .top-header{
         width: 100%;
         flex-direction: row;
+    } */
+    .footer-container h1{
+        font-size: 30px;
     }
 }
 /* tablet device */
@@ -360,5 +363,8 @@ footer hr{
     .footer-container .contact{
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .footer-container h1{
+        font-size: 22px;
     }
 }
