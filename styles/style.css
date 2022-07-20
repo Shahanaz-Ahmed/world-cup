@@ -43,6 +43,14 @@ header{
    border-radius: 5px;
    border: none;
    font-size: 1.2em;
+   cursor: pointer;
+   transition:  width 2s,  background-color 1s, color 1s, box-shadow 1s;
+}
+.container:hover > .header-info > .header-button{
+    width: 300px;
+    background-color: #FFFFFF;
+    color: #161616;
+    box-shadow: 10px 10px 10px #DD0000;
 }
 .header-button i{
     padding-left: 10px;
@@ -186,7 +194,10 @@ footer hr{
     padding-top: 0.5em;
     padding-bottom: 1em;
 }
-
+.social-media a{
+    text-decoration: none;
+    color: rgb(172, 248, 248);
+}
 /* upcoming match */
 .each-match{
     width: auto;
@@ -253,10 +264,18 @@ footer hr{
     .header-button{
         width: 115%;
         margin: 0;
+       cursor: pointer;
+       transition:  width 2s,  background-color 1s, color 1s, box-shadow 1s;
+    }
+    .container:hover > .header-info > .header-button{
+        width: 300px;
+        background-color: #FFFFFF;
+        color: #161616;
+        box-shadow: 10px 10px 10px #DD0000;
     }
     .container img{
         padding-top: 0;
-        width:100%;
+        width:130%;
         margin: 0;
         height: 232px;
     }
@@ -294,6 +313,9 @@ footer hr{
     footer h1{
         font-size: 30px;
     }
+    .social-media{
+        font-size: 30px;
+    }
 }
 /* tablet device */
 @media screen and (min-width:750px) and (max-width:1300px) {
@@ -319,6 +341,13 @@ footer hr{
     .header-button{
         width: 190px;
         margin-bottom: 30px;
+        transition:  width 2s,  background-color 1s, color 1s, box-shadow 1s;
+    }
+    .container:hover > .header-info > .header-button{
+        width: 300px;
+        background-color: #FFFFFF;
+        color: #161616;
+        box-shadow: 10px 10px 10px #DD0000;
     }
     .container img{
         height: 100%;
